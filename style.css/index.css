@@ -1,0 +1,77 @@
+.navbar-content {
+  margin-left: 48px;
+  margin-right: 45px;
+  background-color: #f0fbf3;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 105px;
+  padding-right: 120px;
+  padding-top: 7px;
+
+}
+
+.image {
+width: 179px;
+height: 33px;
+padding-left: 200px;
+display: flex;
+align-items: center;
+justify-content: center
+}
+
+.pages {
+  /* background-color: blue; */
+  color: #161C2D;
+  height: 26px;
+  padding-left: 234px;
+  padding-right: 404px;
+ }
+
+
+.nav-link{
+  display: flex;
+  gap: 36px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  }
+
+.nav-item{
+  text-decoration: none;
+  color: #161C2D;
+}
+
+.btn-box {
+  /* background-color: blueviolet; */
+  width: 150px;
+  height: 26px;
+  padding-top: 7px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  color: #161C2D;
+  text-align: right;
+  letter-spacing: -0.1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.btn{
+    background-color: #f0fbf3;
+    border: none;
+    color: #161C2D;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: -0.1px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: chocolate;
+}
+

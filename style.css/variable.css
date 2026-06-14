@@ -1,0 +1,11 @@
+:root {
+    /* Fonts */
+    --font-text: 'Roboto', sans-serif;
+
+    /* Font sizes (professional tip) */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 32px;
+}
+
