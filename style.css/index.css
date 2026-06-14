@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .navbar-content {
   /* margin-left: 48px;
   margin-right: 45px; */
@@ -75,6 +77,8 @@ justify-content: center
     color: chocolate;
 }
 
+/* HEADER */
+
 .header-content{
   background-color: #f0fbf3;
   height: 677px;
@@ -120,6 +124,8 @@ color: #161C2D;
   height: 685px;
   padding-left: 40px;
 }
+
+/* SECTION COMPANIES */
 
 .companies-container{
   /* background-color: cadetblue; */
@@ -198,4 +204,94 @@ gap: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* SECTION Jobs by category */
+
+.jobcategory-container{
+height: 746px;
+background-color: #161b2e;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 65px;
+}
+
+.jobcategory-txt{
+  width: 1110px;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jobcategory-big-txt{
+  width: 429px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  color: #ffffff;
+ 
+}
+
+.jobcategory-little-txt{
+  width: 360px;
+  height: 64px;
+  opacity: 65%;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+}
+
+.jobcategory-components{
+  /* background-color: brown; */
+  width: 60%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.jobcategory-box{
+  width: 350px;
+  height: 117px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.job-name{
+  width: 200px;
+  height: 32px;
+  padding-top: 26px;
+  padding-left: 32px;
+  font-size: 21px;
+  font-weight: 700px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+
+.vacancy{
+  width: 183px;
+  height: 26px;
+  opacity: 65%;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  padding-top: 26px;
+  padding-left: 32px;
+}
+
+.jobcategory-box:hover{
+  color: white;
+  background-color: #463bef;
 }
