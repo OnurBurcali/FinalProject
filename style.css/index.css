@@ -1,6 +1,6 @@
 .navbar-content {
-  margin-left: 48px;
-  margin-right: 45px;
+  /* margin-left: 48px;
+  margin-right: 45px; */
   background-color: #f0fbf3;
   height: 84px;
   display: flex;
@@ -75,3 +75,127 @@ justify-content: center
     color: chocolate;
 }
 
+.header-content{
+  background-color: #f0fbf3;
+  height: 677px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  gap: 16px;
+}
+
+.header-txt{
+  /* background-color: bisque; */
+  width: 518px;
+  height: 402px;
+  display:flex ;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.header-big-txt{
+  width: 348px;
+  height: 195px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: -2px;
+  color: #161C2D;
+}
+
+.header-little-txt{
+width: 350px;
+height: 96px;
+opacity: 70%;
+font-size: 19px;
+font-weight: 400px;
+line-height: 32px;
+letter-spacing: -0.2px;
+color: #161C2D;
+}
+
+.header-image{
+  width: 481px;
+  height: 685px;
+  padding-left: 40px;
+}
+
+.companies-container{
+  /* background-color: cadetblue; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies{
+  /* background-color: burlywood; */
+  width: 766px;
+  height: 338px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+
+  }
+
+  .companies-txt{
+    /* background-color: darkgray; */
+height: 174px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+.companies-big-txt{
+  width: 356px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -1.2px;
+}
+
+.companies-little-txt{
+  /* background-color: yellow; */
+  width: 640px;
+  height: 96px;
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.companies-logo1{
+  /* background-color: cornflowerblue; */
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.box1{
+  display: flex;
+  gap: 100px;
+}
+
+.img-logo{
+  width: 95px;
+  height: 24px;
+}
+
+.box2{
+display: flex;
+gap: 120px;
+}
+
+.companies-logo2{
+  /* background-color: cornflowerblue; */
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
