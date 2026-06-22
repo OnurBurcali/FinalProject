@@ -1,0 +1,229 @@
+
+/* Header */
+.header-logo{
+    height: 38px;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.13px;
+    font-weight: bold;
+    color: #1d2333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Main */
+
+.main-container{
+    height: 60%;
+    background-color: #f3f7fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 125px;
+    padding-bottom: 158px;
+}
+
+.main-container h1{
+    font-size: 50px;
+    color: #1d2333;
+    margin-bottom: 15px;
+}
+
+.subtitle{
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+/* Card */
+
+.login-card{
+    width: 380px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1d2333;
+}
+
+input{
+    height: 45px;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 0 12px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input:focus{
+    border-color: #4f46e5;
+}
+
+button{
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.signup-text{
+    margin-top: 30px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.signup-text a{
+    text-decoration: none;
+    color: #4f46e5;
+    font-weight: 500;
+}
+
+.empty{
+    height: 38px;
+    background-color: white;
+}
+
+.footer {
+    background-color: #161c2d; 
+    width: 100%;
+    padding: 80px 40px;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.footer-brand {
+   display: flex;
+   flex-direction: column;
+   width: 274px;
+   height: 78px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.brand-text {
+    font-size: 15px;
+    color: #94a3b8; 
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-link {
+    color: #94a3b8;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.icon-link {
+    color: #4ade80; 
+}
+
+.icon-link:hover {
+    color: #ffffff;
+}
+
+.footer-links-wrapper {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.link-column{
+display: flex;
+flex-direction: column;
+}
+
+.link-column h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #64748b; 
+    margin-bottom: 24px;
+}
+
+.link-column ul {
+    list-style: none;
+}
+
+.link-column ul li {
+    margin-bottom: 16px;
+}
+
+.link-column ul li a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.link-column ul li a:hover {
+    opacity: 0.8; 
+}
+
+/* Mobil və Planşetlər üçün Responsive Dizayn */
+@media (max-width: 992px) {
+    .footer-container {
+        flex-direction: column; /* Struktur alt-alta düşür */
+        gap: 40px;
+    }
+
+    .footer-brand {
+        max-width: 100%;
+    }
+
+    .footer-links-wrapper {
+        width: 100%;
+        flex-wrap: wrap; /* Ekran darlığında linklər alt sətirə keçsin */
+        gap: 40px 20px;
+    }
+
+    .link-column {
+        flex: 1 1 40%; /* Planşetlərdə 2-2 düzülsünlər */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .link-column {
+        flex: 1 1 100%; /* Mobil telefonlarda tamamilə alt-alta düşür */
+    }
+}

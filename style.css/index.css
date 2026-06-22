@@ -11,8 +11,8 @@
   padding-left: 105px;
   padding-right: 120px;
   padding-top: 7px;
-
 }
+
 
 .image {
 width: 179px;
@@ -219,6 +219,7 @@ gap: 65px;
 }
 
 .jobcategory-txt{
+  /* background-color: yellow; */
   width: 1110px;
   height: 132px;
   display: flex;
@@ -250,7 +251,7 @@ gap: 65px;
 
 .jobcategory-components{
   /* background-color: brown; */
-  width: 60%;
+  width: 80%;
   height: 270px;
   display: flex;
   justify-content: center;
@@ -274,7 +275,7 @@ gap: 65px;
   padding-top: 26px;
   padding-left: 32px;
   font-size: 21px;
-  font-weight: 700px;
+  font-weight: bold;
   line-height: 32px;
   letter-spacing: -0.5px;
 }
@@ -294,4 +295,584 @@ gap: 65px;
 .jobcategory-box:hover{
   color: white;
   background-color: #463bef;
+}
+
+/* SECTION Find jobs */
+
+.jobs-section{
+  background-color: #ffffff;
+  height: 957px;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TOP */
+
+.top-content{
+  width: 589px;
+  height: 129px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.top-content h1{
+  font-size: 42px;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.top-content p{
+  color: #777;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+/* BOTTOM */
+
+.bottom-content{
+  max-width: 1100px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+
+  flex-wrap: wrap;
+}
+
+/* IMAGE SIDE */
+
+.image-side{
+  position: relative;
+  width: 360px;
+}
+
+.image-side img{
+  width: 100%;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.bg-box{
+  width: 297px;
+  height: 420px;
+
+ background-color: #68D585;
+  opacity: 10%;
+
+  position: absolute;
+  right: -10px;
+  bottom: 0px;
+
+  border-radius: 12px; 
+}
+
+/* NOTIFICATION */
+
+.notification{
+  width: 310px;
+  background-color: #121629;
+
+  position: absolute;
+  left: -50px;
+  bottom: 60px;
+
+  z-index: 3;
+
+  padding: 18px;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon{
+  width: 42px;
+  height: 42px;
+  background-color: #42d27d;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+}
+.icon img{
+  width: 15px;
+  height: 17px;
+}
+
+.text span{
+  color: #9da3b0;
+  font-size: 13px;
+}
+
+.text h4{
+  color: white;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* STEPS */
+
+.steps-side{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.step{
+  display: flex;
+  gap: 20px;
+}
+
+.number{
+  min-width: 42px;
+  height: 42px;
+
+  background-color: #5a4cff;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+}
+
+.step-text h3{
+  font-size: 22px;
+  color: #1d1d1d;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.step-text p{
+  max-width: 300px;
+
+  color: #777;
+  line-height: 28px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px){
+
+  .top-content h1{
+    font-size: 32px;
+  }
+
+  .notification{
+    width: 260px;
+    left: -10px;
+  }
+
+}
+
+.container{
+  width:90%;
+  max-width:1150px;
+  margin:auto;
+}
+
+/* FEATURED JOBS */
+
+.featured-jobs{
+  padding:80px 0;
+}
+
+.jobs-header{
+  /* background-color: #42d27d; */
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:50px;
+}
+
+.jobs-header h2{
+  font-size:42px;
+  color:#161c2d;
+  margin-bottom:15px;
+}
+
+.jobs-header p{
+  max-width:300px;
+  color:#6b7280;
+  line-height:28px;
+}
+
+.job-cards{
+  display:flex;
+  justify-content: space-between;
+}
+
+.job-card{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width:255px;
+  background:white;
+  border:1px solid #ececec;
+  border-radius:12px;
+  padding:25px;
+  /* background-color: #5955a0; */
+}
+
+.job-card h3{
+  margin:15px 0 10px;
+  color:#161c2d;
+  font-size:22px;
+}
+
+.job-card p{
+  color:#7a7a7a;
+   margin-bottom:45px;
+   font-weight: 400;
+}
+
+.full-time{
+  color:#49c96f;
+  font-size:12px;
+  font-weight:700;
+}
+
+.remote{
+  color:#5b5bff;
+  font-size:12px;
+  font-weight:700;
+}
+
+.part-time{
+  color:#ff5d5d;
+  font-size:12px;
+  font-weight:700;
+}
+
+.company{
+  /* background-color: #5bf4ff; */
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* NEWS */
+
+.news{
+  padding:100px 0;
+  background-color: #f3f7fa;
+}
+
+.news-header{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.news-header h2{
+  font-size:42px;
+  color:#161c2d;
+  margin-bottom:15px;
+  font-weight: bold;
+
+}
+
+.news-header p{
+  width:400px;
+  margin:auto;
+  line-height:30px;
+  color:#6b7280;
+}
+
+.news-cards{
+  display:flex;
+  justify-content: center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.news-card{
+  width: 250px;
+  height: 370px;
+   background:white;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.news-card img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+}
+
+.content{
+  padding:20px;
+}
+
+.content span{
+  color:#7a7a7a;
+  font-size:14px;
+}
+
+.content h3{
+  margin-top:12px;
+  color:#161c2d;
+  line-height:1.5;
+  font-weight: bold;
+}
+
+.newsletter-section{
+display: flex;
+justify-content: center;
+padding-bottom: 50px;
+}
+
+.newsletter-container {
+  /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 402px;
+    height: 431px;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.icon-container{
+padding-bottom: 40px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #161c2d;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+}
+
+.description {
+    font-size: 16px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.subscribe-form {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+}
+
+/* Email daxil etmə sahəsi */
+.email-input {
+    flex: 1; /* Qalan bütün boş sahəni doldurur */
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    font-size: 15px;
+    color: #1f2937;
+}
+
+.email-input::placeholder {
+    color: #9ca3af;
+}
+
+.subscribe-btn {
+    background-color: #4638ff;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #3729e0; 
+}
+
+.privacy-link {
+    color: #6b7280;
+    text-decoration: underline;
+}
+
+.privacy-link:hover {
+    color: #161c2d;
+}
+
+/* Mobil cihazlar üçün uyğunlaşdırma (Responsive) */
+@media (max-width: 480px) {
+    .subscribe-form {
+        flex-direction: column; /* Mobildə input və buton alt-alta düşür */
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        gap: 12px;
+    }
+
+    .email-input {
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .subscribe-btn {
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .title {
+        font-size: 26px;
+    }
+}
+
+
+.footer {
+    background-color: #161c2d;
+    width: 100%;
+    padding: 80px 40px;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.footer-brand {
+   display: flex;
+   flex-direction: column;
+   width: 274px;
+   height: 78px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.brand-text {
+    font-size: 15px;
+    color: #94a3b8; 
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-link {
+    color: #94a3b8;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.icon-link {
+    color: #4ade80; 
+}
+
+.icon-link:hover {
+    color: #ffffff;
+}
+
+.footer-links-wrapper {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.link-column h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #64748b;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+.link-column ul {
+    list-style: none;
+}
+
+.link-column ul li {
+    margin-bottom: 16px;
+}
+
+.link-column ul li a {
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.link-column ul li a:hover {
+    opacity: 0.8; 
+}
+
+/* Mobil və Planşetlər üçün Responsive Dizayn */
+@media (max-width: 992px) {
+    .footer-container {
+        flex-direction: column; /* Struktur alt-alta düşür */
+        gap: 40px;
+    }
+
+    .footer-brand {
+        max-width: 100%;
+    }
+
+    .footer-links-wrapper {
+        width: 100%;
+        flex-wrap: wrap; /* Ekran darlığında linklər alt sətirə keçsin */
+        gap: 40px 20px;
+    }
+
+    .link-column {
+        flex: 1 1 40%; /* Planşetlərdə 2-2 düzülsünlər */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 60px 20px;
+    }
+
+    .link-column {
+        flex: 1 1 100%; /* Mobil telefonlarda tamamilə alt-alta düşür */
+    }
 }
