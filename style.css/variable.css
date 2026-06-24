@@ -1,11 +1,15 @@
 :root {
-    /* Fonts */
-    --font-text: 'Roboto', sans-serif;
+  /* Fonts */
+  --font-text: "Roboto", sans-serif;
 
-    /* Font sizes (professional tip) */
-    --fs-sm: 14px;
-    --fs-md: 16px;
-    --fs-lg: 20px;
-    --fs-xl: 32px;
+  /* Font sizes (professional tip) */
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 32px;
+
+  /* ----->COLOR<------- */
+  --white-color: #ffffff;
+  --btntext-color: #161c2d;
+  --primary-background: #f4f7fa;
 }
-
