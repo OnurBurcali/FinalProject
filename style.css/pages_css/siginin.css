@@ -11,6 +11,15 @@
     justify-content: center;
     align-items: center;
 }
+
+.header-logo a:visited{
+    color: black;
+}
+
+.header-logo a:hover{
+    color: chocolate;
+    cursor: pointer;
+}
 /* Main */
 
 .main-container{

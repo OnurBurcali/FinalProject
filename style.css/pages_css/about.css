@@ -30,6 +30,13 @@
   line-height: 26px;
   font-weight: 700;
 }
+.nav-item:hover{
+    color: chocolate;
+}
+.nav-link a.active {
+    color: chocolate;
+    font-weight: bold;
+}
 
 .btn-box {
   width: 150px;
@@ -48,9 +55,14 @@
   cursor: pointer;
 }
 
-.nav-item:hover {
-  color: chocolate;
+.btn-box a:visited{
+    color: black;
 }
+.btn-box a:hover{
+    color: chocolate;
+}
+
+
 
 /* ----->Hero Image Our story team<------- */
 
@@ -140,9 +152,8 @@
 
 .about-team {
   width: 100%;
-  background-color: var(--primary-background);
+  background-color:#f3f7fa;
   padding: 100px 0;
-  /* gap: 95px; */
 }
 
 .team-container {

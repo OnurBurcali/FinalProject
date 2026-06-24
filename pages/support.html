@@ -3,34 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css/reset.css">
+    <link rel="stylesheet" href="../style.css/global.css">
+    <link rel="stylesheet" href="../style.css/variable.css">
     <link rel="stylesheet" href="../style.css/pages_css/support.css" />
     <title>Support</title>
   </head>
   <body>
-    <header class="container navbar-content">
-      <div class="image">
-        <img src="../assets/images/brainwave.io.svg" alt="Logo" />
-      </div>
+   <div class="body-container">
+   <header>
+        <navbar>
+          <div class="navbar-content">
+            <div class="image">
+              <img src="../assets/images/brainwave.io.svg" alt="Logo" />
+            </div>
 
-      <nav class="pages">
-        <ul class="nav-link">
-          <li>
-            <a class="nav-item" href="../index.html">Home</a>
-          </li>
-          <li>
-            <a class="nav-item" href="#">About us</a>
-          </li>
-          <li>
-            <a class="nav-item" href="../pages/support.html">Support</a>
-          </li>
-        </ul>
-      </nav>
+            <div class="pages">
+              <div class="nav-link">
+                <a class="nav-item" href="../index.html">Home</a>
+                <a class="nav-item" href="../pages/about.html">About us</a>
+                <a class="nav-item active" href="#">Support</a>
+              </div>
+            </div>
 
-      <div class="btn-box">
-        <button class="btn">Login</button>
-        <button class="btn">Sign up</button>
-      </div>
-    </header>
+            <div class="btn-box">
+              <button class="btn">
+                <a href="../pages/siginin.html">Login</a>
+              </button>
+
+              <button class="btn">
+                <a href="../pages/sipinup.html">Sign up</a>
+              </button>
+            </div>
+          </div>
+        </navbar>
+      </header>
 
     <main>
       <section class="support-content">
@@ -204,5 +211,8 @@
         </div>
       </div>
     </footer>
+</div>
+
+
   </body>
 </html>

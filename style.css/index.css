@@ -1,81 +1,63 @@
 /* NAVBAR */
 
 .navbar-content {
-  /* margin-left: 48px;
-  margin-right: 45px; */
   background-color: #f0fbf3;
-  height: 84px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding-left: 105px;
-  padding-right: 120px;
-  padding-top: 7px;
+  height: 84px;
 }
 
-
 .image {
-width: 179px;
-height: 33px;
-padding-left: 200px;
-display: flex;
-align-items: center;
-justify-content: center
+  width: 179px;
+  height: 0 auto;
 }
 
 .pages {
-  /* background-color: blue; */
-  color: #161C2D;
-  height: 26px;
-  padding-left: 234px;
-  padding-right: 404px;
- }
+  color: var(--btntext-color);
+}
 
-
-.nav-link{
+.nav-link {
   display: flex;
   gap: 36px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--btntext-color);
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
-  }
-
-.nav-item{
-  text-decoration: none;
-  color: #161C2D;
 }
-
-.btn-box {
-  /* background-color: blueviolet; */
-  width: 150px;
-  height: 26px;
-  padding-top: 7px;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 26px;
-  color: #161C2D;
-  text-align: right;
-  letter-spacing: -0.1px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-}
-.btn{
-    background-color: #f0fbf3;
-    border: none;
-    color: #161C2D;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 26px;
-    text-align: right;
-    letter-spacing: -0.1px;
-    cursor: pointer;
-}
-
 .nav-item:hover{
     color: chocolate;
 }
+
+.btn-box {
+  width: 150px;
+  height: 26px;
+  padding-top: 7px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.btn {
+  background-color:#f0fbf3;
+  border: none;
+  color: var(--btntext-color);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-box a:visited{
+    color: black;
+}
+.btn-box a:hover{
+    color: chocolate;
+}
+
 
 /* HEADER */
 
@@ -295,6 +277,8 @@ gap: 65px;
 .jobcategory-box:hover{
   color: white;
   background-color: #463bef;
+  cursor: pointer;
+  box-shadow:0 0 10px rgba(253, 254, 255, 0.514);
 }
 
 /* SECTION Find jobs */
@@ -472,20 +456,6 @@ gap: 65px;
   line-height: 28px;
 }
 
-/* RESPONSIVE */
-
-@media(max-width: 768px){
-
-  .top-content h1{
-    font-size: 32px;
-  }
-
-  .notification{
-    width: 260px;
-    left: -10px;
-  }
-
-}
 
 .container{
   width:90%;
@@ -517,6 +487,25 @@ gap: 65px;
   max-width:300px;
   color:#6b7280;
   line-height:28px;
+}
+
+.arrow{
+  background-color: #F4F7FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 79px;
+  height: 44px;
+  border-radius: 10px;
+  }
+
+.arrow-left-box:hover{
+  cursor: pointer;
+}
+
+.arrow-right-box:hover{
+  cursor: pointer;
 }
 
 .job-cards{
@@ -614,6 +603,13 @@ gap: 65px;
    background:white;
   border-radius:12px;
   overflow:hidden;
+  transition: all 0.3s ease;
+}
+
+.news-card:hover{
+cursor: pointer;
+transform: translateY(-10px);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .news-card img{
@@ -727,31 +723,6 @@ padding-bottom: 40px;
     color: #161c2d;
 }
 
-/* Mobil cihazlar üçün uyğunlaşdırma (Responsive) */
-@media (max-width: 480px) {
-    .subscribe-form {
-        flex-direction: column; /* Mobildə input və buton alt-alta düşür */
-        border: none;
-        box-shadow: none;
-        padding: 0;
-        gap: 12px;
-    }
-
-    .email-input {
-        border: 1px solid #e5e7eb;
-        border-radius: 8px;
-        width: 100%;
-    }
-
-    .subscribe-btn {
-        width: 100%;
-        border-radius: 8px;
-    }
-    
-    .title {
-        font-size: 26px;
-    }
-}
 
 
 .footer {
@@ -796,21 +767,6 @@ padding-bottom: 40px;
     gap: 20px;
 }
 
-.icon-link {
-    color: #94a3b8;
-    font-size: 18px;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.icon-link {
-    color: #4ade80; 
-}
-
-.icon-link:hover {
-    color: #ffffff;
-}
-
 .footer-links-wrapper {
     display: flex;
     flex: 2;
@@ -843,36 +799,4 @@ padding-bottom: 40px;
 
 .link-column ul li a:hover {
     opacity: 0.8; 
-}
-
-/* Mobil və Planşetlər üçün Responsive Dizayn */
-@media (max-width: 992px) {
-    .footer-container {
-        flex-direction: column; /* Struktur alt-alta düşür */
-        gap: 40px;
-    }
-
-    .footer-brand {
-        max-width: 100%;
-    }
-
-    .footer-links-wrapper {
-        width: 100%;
-        flex-wrap: wrap; /* Ekran darlığında linklər alt sətirə keçsin */
-        gap: 40px 20px;
-    }
-
-    .link-column {
-        flex: 1 1 40%; /* Planşetlərdə 2-2 düzülsünlər */
-    }
-}
-
-@media (max-width: 480px) {
-    .footer {
-        padding: 60px 20px;
-    }
-
-    .link-column {
-        flex: 1 1 100%; /* Mobil telefonlarda tamamilə alt-alta düşür */
-    }
 }

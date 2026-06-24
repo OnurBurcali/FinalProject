@@ -47,10 +47,21 @@
   font-size: 14px;
   cursor: pointer;
 }
-
-.nav-item:hover {
+.nav-item:hover{
+    color: chocolate;
+}
+.nav-link a.active {
   color: chocolate;
 }
+
+.btn-box a:visited{
+    color: black;
+}
+.btn-box a:hover{
+    color: chocolate;
+}
+
+
 
 .support-hero {
   display: flex;
